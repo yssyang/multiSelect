@@ -1,0 +1,24 @@
+.select_version input{
+
+    width:100%;
+    float: left;
+    height:100%;
+    padding-right: 10px;
+    cursor: pointer;
+    text-indent: 2%;
+
+
+}
+.select_version select{
+    width: 100%;
+    display:none;
+    float: left;
+    overflow: visible
+}
+.select_version select option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 2px 2px 1px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="container" style="width: 150px;height: 50px;">
+    <div class="select_version " >
+        <input type="text" value="所有Android版本" readonly>
+        <select name="" class="AndroidVer"  multiple="true" size="5">
+            <option value="1">所有Android版本</option>
+            <option value="2">Android3.9.8</option>
+            <option value="3">Android3.5.4</option>
+            <option value="4">Android2.5.4</option>
+            <option value="5">Android1.5.4</option>
+        </select>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="jquery-2.1.3.min.js"></script>
+<script src="index.js"></script>
+<script>
+     new MyMultiSelect("#container")
+</script>
